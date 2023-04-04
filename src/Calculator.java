@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class Calculator implements iCalculator {
     private final int precision;
-
+ 
     public Calculator(int precision) {
         this.precision = precision;
     }
@@ -67,7 +67,7 @@ public class Calculator {
             }
             else
                 if (close == 'N'){
-                    System.out.println("Досвидание");
+                    System.out.println("Goodbye");
                            
             }
 
